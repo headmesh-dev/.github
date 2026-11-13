@@ -45,7 +45,7 @@ Headmesh supplies the control layer. Headscale and Tailscale provide mesh coordi
 
 ## For teams, compute renters and AI agents
 
-The project includes a **Go control plane and CLI**, **cell agents**, a separate **agent sandbox**, and **Claude Code/Codex plugins**. [Xcelsior Compute](https://xcelsior.ca/) is the first production user: GPU access is scoped to the rented machine and rental period.
+The project includes a **Go control plane and CLI**, **cell agents**, a separate **agent sandbox**, and **Claude Code/Codex plugins**. It is built for [Xcelsior Compute](https://xcelsior.ca/)'s GPU-sharing workflow: access scoped to the rented machine and rental period.
 
 Headmesh remains **pre-release**, with early access through the [waitlist](https://headmesh.dev/). The CLI, sandbox, plugins and web code use **Apache-2.0**; the server and cell-agent implementation use **AGPL-3.0-only**. See the [licensing map](https://github.com/headmesh-dev/headmesh/blob/main/LICENSING.md) for path-specific terms.
 
